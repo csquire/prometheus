@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: prometheus
+  annotations:
+    github.com/project-slug: csquire/prometheus
+    backstage.io/techdocs-ref: dir:docs/
+spec:
+  type: other
+  lifecycle: unknown
+  owner: infrastructure
